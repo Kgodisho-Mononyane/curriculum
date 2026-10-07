@@ -100,7 +100,7 @@ Remember that our hash map does not preserve insertion order when you are retrie
    test.set('moon', 'silver')
    ```
 
-1. If you have implemented your hash map correctly, the load levels of your expanded hash map should drop well below your load factor, and the entries should be spread evenly among the expanded buckets.
+1. If you have implemented your hash map correctly, the load levels of your expanded hash map should drop well below your load factor, and the entries should be spread among the expanded buckets. Note: given that the hash code you will make will not be particularly complex, you can expect for some of the entries to bunch up. This is to be expected. 
 
 1. With your new hash map, try overwriting a few nodes using `set(key, value)`. Again, this should only overwrite existing `values` of your nodes.
 
